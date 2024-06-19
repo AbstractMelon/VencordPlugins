@@ -16,7 +16,7 @@ function letMeGoogleThat(message) {
 const settings = definePluginSettings({
     defaultUrl: {
         type: OptionType.STRING,
-        default: "https://letmegooglethat.com/?q=",
+        default: "https://googleit.vercel.app/?q=",
         description: "Default google url - RECOMMEND NOT CHANGING UNLESS YOU KNOW WHAT YOU ARE DOING!",
         restartNeeded: true,
     },
